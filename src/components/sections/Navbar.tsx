@@ -1,6 +1,7 @@
 import { Menu } from 'lucide-react';
 import { useState } from 'react';
 import { useLanguage } from '../../context/LanguageContext';
+import { IoLanguage } from "react-icons/io5"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,8 +33,8 @@ export function Navbar() {
             <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
           </a>
           <div className="w-px h-4 bg-slate-700"></div>
-          <button onClick={toggleLanguage} className="text-sm font-semibold text-slate-300 hover:text-white">
-            {t('nav.toggleLang')}
+          <button onClick={toggleLanguage} className="flex gap-1 items-center text-sm font-semibold text-slate-300 hover:text-white">
+            <IoLanguage />{t('nav.toggleLang')}
           </button>
         </div>
 
@@ -67,9 +68,9 @@ export function Navbar() {
               toggleLanguage();
               setIsOpen(false);
             }}
-            className="text-lg font-medium text-slate-300 hover:text-white text-left transition-colors cursor-pointer"
+            className="flex gap-1 items-center text-lg font-medium text-slate-300 hover:text-white text-left transition-colors cursor-pointer"
           >
-            {t('nav.toggleLang')}
+            <IoLanguage />{t('nav.toggleLang')}
           </button>
         </div>
       )}
