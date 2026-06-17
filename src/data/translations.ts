@@ -3,6 +3,7 @@ export type Language = 'es' | 'en';
 export const translations = {
   es: {
     // Navbar
+    'nav.title': 'Portafolio',
     'nav.home': 'Inicio',
     'nav.skills': 'Habilidades',
     'nav.projects': 'Proyectos',
@@ -26,7 +27,7 @@ export const translations = {
     'projects.noResults': 'No se encontraron proyectos con las etiquetas seleccionadas.',
     'projects.clearFilters': 'Limpiar filtros',
     'projects.viewCode': 'Código',
-    'projects.viewLive': 'Ver Proyecto',
+    'projects.viewLive': 'Ver Página',
     'projects.download': 'Descargar Proyecto',
     'projects.tagsLabel': 'Filtrar por Etiquetas...',
     'projects.tagsPlaceholder': 'Escribe o selecciona etiquetas...',
@@ -51,11 +52,13 @@ export const translations = {
     'contact.error': 'Hubo un error al enviar el mensaje. Intenta nuevamente.',
 
     // Footer
+    'footer.title': 'Portafolio',
     'footer.builtWith': 'Hecho con',
     'footer.rights': 'Todos los derechos reservados.',
   },
   en: {
     // Navbar
+    'nav.title': 'Portfolio',
     'nav.home': 'Home',
     'nav.skills': 'Skills',
     'nav.projects': 'Projects',
@@ -75,15 +78,15 @@ export const translations = {
     'skills.desc': 'A selection of the technologies and tools I use to build solutions. For a more detailed overview, please feel free to check the project details.',
 
     // Projects
-    'projects.title': 'Proyectos',
-    'projects.noResults': 'No se encontraron proyectos con las etiquetas seleccionadas.',
-    'projects.clearFilters': 'Limpiar filtros',
-    'projects.viewCode': 'Código',
-    'projects.viewLive': 'Ver Proyecto',
-    'projects.download': 'Descargar Proyecto',
-    'projects.tagsLabel': 'Filtrar por Etiquetas...',
-    'projects.tagsPlaceholder': 'Escribe o selecciona etiquetas...',
-    'projects.tagsType': 'Escribe algo',
+    'projects.title': 'Projects',
+    'projects.noResults': 'No projects found with the selected tags.',
+    'projects.clearFilters': 'Clear filters',
+    'projects.viewCode': 'Code',
+    'projects.viewLive': 'View Page',
+    'projects.download': 'Download Project',
+    'projects.tagsLabel': 'Filter by Tags...',
+    'projects.tagsPlaceholder': 'Type or select tags...',
+    'projects.tagsType': 'Type something',
 
     // GithubCta
     'github.title': 'Looking for my latest commits?',
@@ -104,6 +107,7 @@ export const translations = {
     'contact.error': 'There was an error sending the message. Please try again.',
 
     // Footer
+    'footer.title': 'Portfolio',
     'footer.builtWith': 'Built with',
     'footer.rights': 'All rights reserved.',
   }

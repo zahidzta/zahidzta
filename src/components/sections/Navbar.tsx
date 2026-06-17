@@ -10,7 +10,7 @@ export function Navbar() {
     <nav className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
       <div className="w-full max-w-5xl bg-surface/90 backdrop-blur-md border border-white/10 rounded-full h-16 flex items-center justify-between px-8 shadow-2xl">
         <a href="#" className="text-xl font-display font-black text-white tracking-tighter">
-          Portfolio
+          {t('nav.title')}
         </a>
 
         {/* Desktop Menu */}

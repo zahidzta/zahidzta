@@ -9,7 +9,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
 
         <div className="text-3xl font-display font-black text-white tracking-tighter">
-          Portfolio
+          {t('footer.title')}
         </div>
 
         <p className="text-slate-500 text-sm">
