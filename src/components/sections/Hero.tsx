@@ -21,7 +21,7 @@ export function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-20 w-full">
         <div className="max-w-3xl">
-          <h1 className="text-4xl min-[400px]:text-5xl md:text-7xl lg:text-[80px] font-black uppercase tracking-tighter leading-[1.1] text-white mb-4">
+          <h1 className="text-3xl min-[375px]:text-4xl min-[480px]:text-5xl md:text-7xl lg:text-[80px] font-black uppercase tracking-tighter leading-[1.1] text-white mb-4">
             {t('hero.title')}
             <span className="block text-primary mt-2">{t('hero.role1')}</span>
             <span className="block text-primary">{t('hero.role2')}</span>

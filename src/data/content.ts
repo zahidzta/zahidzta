@@ -2,6 +2,7 @@ import listCartImg from '../assets/list-cart.jpg';
 import weatherAppImg from '../assets/weather-app.jpg';
 import contactFormImg from '../assets/contact-form.jpg';
 import extensionManagerImg from '../assets/extension-manager.jpg';
+import loopstudiosImg from '../assets/loopstudios.jpg';
 
 export const skills = [
   "Node", "C", "c++", "Java", "PHP", "API",
@@ -78,5 +79,15 @@ export const projects: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2400&auto=format&fit=crop",
     githubUrl: "https://github.com/zahidzta/proyecto_cs",
     downloadUrl: "/downloads/zeta-cr.zip"
+  },
+  {
+    id: "6",
+    title: "Loopstudios landing page",
+    description_es: "Landing page responsiva para una empresa de realidad virtual. Presenta un diseño moderno con cuadrículas adaptables, menú de navegación móvil interactivo y animaciones suaves.",
+    description_en: "Responsive landing page for a virtual reality company. Features a modern design with adaptive grids, an interactive mobile navigation menu, and smooth animations.",
+    tags: ["frontend", "react", "tailwindcss"],
+    imageUrl: loopstudiosImg,
+    githubUrl: "https://github.com/zahidzta/loopstudios-landing-page.git",
+    liveUrl: "https://zahidzta.github.io/loopstudios-landing-page/"
   }
 ];
