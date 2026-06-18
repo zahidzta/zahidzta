@@ -70,7 +70,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/zahidzta/extensions-manager",
     liveUrl: "https://zahidzta.github.io/extensions-manager/"
   },
-  {
+  /*{
     id: "5",
     title: "Renta de Autos Zeta CR",
     description_es: "Aplicación de escritorio en C# orientada a la gestión integral de un negocio de alquiler de vehículos. Integra una arquitectura de capas y conexión a un sistema de Bases de Datos relacional.",
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=2400&auto=format&fit=crop",
     githubUrl: "https://github.com/zahidzta/proyecto_cs",
     downloadUrl: "/downloads/zeta-cr.zip"
-  },
+  },*/
   {
     id: "6",
     title: "Loopstudios landing page",

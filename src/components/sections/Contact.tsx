@@ -12,7 +12,8 @@ export function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     
-    const formData = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
     
     try {
       const response = await fetch("https://formsubmit.co/ajax/zahidduron@gmail.com", {
@@ -31,11 +32,12 @@ export function Contact() {
 
       if (response.ok) {
         alert(t('contact.success'));
-        e.currentTarget.reset();
+        form.reset();
       } else {
         alert(t('contact.error'));
       }
     } catch (error) {
+      console.error(error);
       alert(t('contact.error'));
     } finally {
       setIsSubmitting(false);
